@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane fx:id="rootPane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TestFx.controller.MainApplicationController">
+   <children>
+      <AnchorPane fx:id="rootLayout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0">
+      	<children>
+      		<VBox prefHeight="700.0" prefWidth="250.0" style="-fx-background-color: #2f5597;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="949.0" AnchorPane.topAnchor="0.0">
+      			<children>
+      				<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="250.0">
+      					<children>
+                        <Button fx:id="logoBtn" layoutX="72.0" layoutY="11.0" onAction="#homeAction" mnemonicParsing="false" style="-fx-background-color: transparent;">
+                           <graphic>
+            						<ImageView fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+            							<image>
+            								<Image url="@../../../../../../Users/user/Desktop/images/logo.png" />
+            							</image>
+            						</ImageView>
+                           </graphic>
+                        </Button>
+      					</children>
+      				</AnchorPane>
+      				<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="250.0">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="209.0" layoutX="47.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="47.0" AnchorPane.rightAnchor="46.75" AnchorPane.topAnchor="0.0">
+                           <image>
+                              <Image url="@../../../../../../Users/user/Desktop/images/pcList_logo.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+      				</AnchorPane>
+      				<ListView fx:id="pcList" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="420.0" prefWidth="251.0" style="-fx-background-color: #2f5597;" />
+      				<AnchorPane prefHeight="200.0" prefWidth="250.0">
+      					<children>
+      						<Button fx:id="addBtn" layoutX="68.0" layoutY="40.0" mnemonicParsing="false" onAction="#addAction" styleClass="default-button-style" stylesheets="@myStyle.css">
+      							<graphic>
+      								<ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+      									<image>
+      										<Image url="@../../../../../../Users/user/Desktop/images/plus_button.png" />
+      									</image>
+      								</ImageView>
+      							</graphic>
+      						</Button>
+      						<Button fx:id="removeBtn" layoutX="138.0" layoutY="40.0" mnemonicParsing="false" onAction="#deleteAction" styleClass="default-button-style" stylesheets="@myStyle.css">
+      							<graphic>
+      								<ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+      									<image>
+      										<Image url="@../../../../../../Users/user/Desktop/images/remove_button.png" />
+      									</image>
+      								</ImageView>
+      							</graphic>
+      						</Button>
+      					</children>
+      				</AnchorPane>
+      			</children>
+      		</VBox>
+      		<VBox layoutX="251.0" prefHeight="700.0" prefWidth="950.0">
+      			<children>
+      				<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="950.0" style="-fx-background-color: #ffffff;">
+      					<children>
+      						<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="950.0" style="-fx-background-color: #f2f2f2;">
+      							<children>
+      								<Button fx:id="exitBtn" layoutX="916.0" layoutY="2.0" mnemonicParsing="false" onAction="#closeAction" prefHeight="26.0" prefWidth="17.0" styleClass="default-button-style" stylesheets="@myStyle.css">
+      									<graphic>
+      										<ImageView fitHeight="18.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+      											<image>
+      												<Image url="@../../../../../../Users/user/Desktop/images/close_button_gray.png" />
+      											</image>
+      										</ImageView>
+      									</graphic>
+      								</Button>
+      								<Button fx:id="homeBtn" layoutX="870.0" layoutY="2.0" mnemonicParsing="false" onAction="#homeAction" prefHeight="26.0" prefWidth="17.0" styleClass="default-button-style" stylesheets="@myStyle.css">
+      									<graphic>
+      										<ImageView fitHeight="20.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+      											<image>
+      												<Image url="@../../../../../../Users/user/Desktop/images/home_button_gray.png" />
+      											</image>
+      										</ImageView>
+      									</graphic>
+      								</Button>
+      								<Button fx:id="infoBtn" layoutX="823.0" layoutY="2.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="17.0" styleClass="default-button-style" stylesheets="@myStyle.css">
+      									<graphic>
+      										<ImageView fitHeight="20.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+      											<image>
+      												<Image url="@../../../../../../Users/user/Desktop/images/information_button_gray.png" />
+      											</image>
+      										</ImageView>
+      									</graphic>
+      								</Button>
+      							</children>
+      						</AnchorPane>
+      					</children>
+      				</VBox>
+                  <AnchorPane fx:id="mainPane">
+                     <children>
+            				<JFXTabPane prefHeight="670.0" prefWidth="950.0" style="-fx-background-color: ffffff;" stylesheets="@myStyle.css" />
+                     </children>
+                  </AnchorPane>
+      			</children>
+      		</VBox>
+      	</children>
+      </AnchorPane>
+   </children>
+</StackPane>

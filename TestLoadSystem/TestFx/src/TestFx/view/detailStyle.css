@@ -1,0 +1,140 @@
+
+/* 폰트 */
+.cabin-18-bold {
+	-fx-font-size: 18.0;
+	-fx-font-family: "Cabin";
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+
+.corbel-18-bold {
+	-fx-font-size: 18.0;
+	-fx-font-family: "Corbel";
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+
+.corbel-20-bold {
+	-fx-font-size: 20.0;
+	-fx-font-family: "Corbel";
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+
+.myriad-18-semibold{
+	-fx-font-size: 18.0;
+	-fx-font-family: "MyriadPro";
+	-fx-font-family: semibold;
+	-fx-text-fill:white;
+}
+
+/* 버튼 */
+.reset-button{
+	-fx-background-color:transparent;
+	-fx-font-size: 20.0;
+	-fx-font-family: "Corbel";
+	-fx-font-weight: bold;
+	-fx-text-fill:  #2e75b6;
+}
+.start-button{
+	-fx-background-color: #2e75b6;
+	-fx-font-size: 20.0;
+	-fx-font-family: "Corbel";
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+.stop-button{
+	-fx-background-color: #2e75b6;
+	-fx-font-size: 20.0;
+	-fx-font-family: "Corbel";
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+.save-button, .deselect-all-button , .select-all-button{
+	-fx-background-color:transparent;
+	-fx-font-size: 17.0;
+	-fx-font-family: "Corbel";
+	-fx-font-weight: bold;
+	-fx-text-fill:  #5e5e5e;
+}
+.right-to-left-button , .left-to-right-button{
+	-fx-background-color:#a5a5a5;
+	-fx-font-size: 20.0;
+	-fx-font-family: "Corbel";
+	-fx-font-weight: bold;
+	-fx-text-fill:  #5e5e5e;
+}
+/* tab ���� */
+.tab{
+	-fx-background-color: #1f4e79;
+	-fx-pref-width:  200.0;
+	-fx-pref-height: 60.0;
+}
+.tab-label {
+    -fx-text-fill: white ;
+    -fx-font: 20px "Corbel";
+	-fx-font-weight: bold;
+}
+.tab-header-background{
+	-fx-background-color: #1f4e79;
+}
+
+.jfx-tab-pane .tab-selected-line{
+	-fx-border-color : #ffffff;
+}
+
+.jfx-tab-pane .tab-header-area .jfx-rippler {
+	 -jfx-rippler-fill: #a5a5a5;
+}
+
+/* text field 세팅 */
+.text-field {
+    -fx-background-color: transparent;
+}
+.text-input {
+    -fx-text-fill: #727378;
+    -fx-alignment: center;
+}
+.text-field:focused {
+    -fx-background-color: transparent;
+}
+
+.jfx-text-field, .jfx-password-field {
+    -fx-prompt-text-fill: #c2c2c2;
+}
+
+.combo-box, .choice-box {
+	-fx-prompt-text-fill: #c2c2c2;
+}
+
+.combo-box .arrow, .choice-box .arrow {
+	-fx-background-color: #a1a1a1;
+}
+
+.combo-box .list-cell:filled:selected .text{
+	-fx-fill: #2f5597;
+}
+
+
+.combo-box .list-cell:filled:selected{
+	-fx-background-color: transparent;
+}
+
+.combo-box .list-cell:filled .text{
+	-fx-fill: #727378;
+}
+
+.list-cell {
+	-fx-background-insets: 0.0;
+	-fx-background-color: #f2f2f2;
+}
+ 
+.list-cell:even {
+	-fx-background-color: #f2f2f2;
+}
+
+.list-cell:odd {
+	-fx-background-color: #f2f2f2;
+}
+
+

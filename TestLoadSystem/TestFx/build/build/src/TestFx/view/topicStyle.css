@@ -1,0 +1,30 @@
+.list-cell:filled:selected .text{
+	-fx-fill: white;
+	
+}
+
+.list-cell:filled:selected{
+	-fx-background-color: #97b5d4;
+}
+
+.list-cell:filled .text{
+	-fx-fill: black;
+}
+
+.list-cell {
+	-fx-background-insets: 0.0;
+	-fx-background-color: #f2f2f2;
+}
+ 
+.list-cell:even {
+	-fx-background-color: #f2f2f2;
+}
+
+.list-cell:odd {
+	-fx-background-color: #f2f2f2;
+}
+
+.list-cell:hover{
+	-fx-background-color: #727378;
+	-fx-opacity: 0.4;
+}

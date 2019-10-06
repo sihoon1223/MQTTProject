@@ -1,0 +1,101 @@
+
+/* font */
+.cabin-20-bold{
+	-fx-font-size: 20.0;
+	-fx-font-family: "Cabin";
+	-fx-font-weight: bold;
+	-fx-text-fill:white;
+}
+
+.cabin-18-bold{
+	-fx-font-size: 18.0;
+	-fx-font-family: "Cabin";
+	-fx-font-weight: bold;
+	-fx-text-fill:white;
+}
+
+.cabin-20-regular{
+	-fx-font-size: 20.0;
+	-fx-font-family: "Cabin";
+	-fx-text-fill:white;
+}
+
+.myriad-20-semibold{
+	-fx-font-size: 20.0;
+	-fx-font-family: "MyriadPro";
+	-fx-font-family: semibold;
+	-fx-text-fill:white;
+}
+
+
+.list-view .scroll-bar:vertical {
+    -fx-scale-x: 0.0;
+    -fx-background-color: #2f5597;
+   
+}
+
+/* pcListPane �� pc����Ʈ �� ���� */
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #2f5597;
+    -fx-opacity: 0.6;
+}
+
+.list-cell{
+	-fx-background-insets: 0.0;
+	-fx-background-color: #2f5597;
+}
+
+.list-cell:even{
+	-fx-background-color: #2f5597;
+}
+
+.list-cell:odd{
+	-fx-background-color: #2f5597;
+}
+
+.list-cell:hover{
+	-fx-background-color: #2f5597;
+	-fx-opacity: 0.8;
+}
+
+/* pcListPane ���� startButton,stopButton,addButton,removeButton ���� */
+.start-button-white{
+    -fx-background-color: transparent;
+    -fx-padding : 0.0px;
+    -fx-background-size: 10.0px 10.0px;
+    /*-fx-graphic: url("../../../resources/pcList_startBtn_white.png");*/
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: 90.0%;
+}
+
+.start-button-gray{
+    -fx-background-color: transparent;
+    -fx-padding : 0.0px;
+    -fx-graphic: url("../../../resources/pcList_startBtn_gray.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: 90.0%;
+}
+
+.stop-button-white{
+    -fx-background-color: transparent;
+    -fx-padding : 0.0px;
+    /*-fx-graphic: url("../../../resources/pcList_stopBtn_white.png");*/
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: 90.0%;
+}
+
+.stop-button-gray{
+    -fx-background-color: transparent;
+    -fx-padding : 0.0px;
+    -fx-graphic: url("../../../resources/pcList_stopBtn_gray.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: 90.0%;
+}
+
+.default-button-style{
+    -fx-background-color: transparent;
+    -fx-padding : 0.0px;
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: 90.0%;
+}
+

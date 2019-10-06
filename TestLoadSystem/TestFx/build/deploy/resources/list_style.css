@@ -1,0 +1,12 @@
+.table-row-cell:empty {
+    -fx-background-color: khaki;
+    -fx-border-color: grey
+}
+ 
+.table-row-cell:hover{
+    -fx-background-color: blanchedalmond;
+}
+ 
+.table-row-cell:selected{
+    -fx-background-color: chocolate;
+}

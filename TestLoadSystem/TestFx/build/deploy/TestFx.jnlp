@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TestFx.jnlp">
+  <information>
+    <title>TestFx</title>
+    <vendor>TestFx</vendor>
+    <description>MQTT Test Load Genertor</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TestFx.jar" size="38353" download="eager" />
+    <jar href="libs\controlsfx-8.40.15.jar" size="1402490" download="eager" />
+    <jar href="libs\jfoenix-8.0.8.jar" size="2708772" download="eager" />
+    <jar href="libs\org.eclipse.paho.client.mqttv3-1.2.0.jar" size="217453" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="TestFx.controller.MainApp"  name="MQTT Test Load Genertor" />
+  <update check="background"/>
+</jnlp>
